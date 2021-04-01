@@ -1,5 +1,10 @@
 import avatar from 'animal-avatar-generator'
+import './index.css'
 
-document.getElementById('key')!.addEventListener('input', (event) => {
-    document.getElementById('app')!.innerHTML = avatar((event.target as any).value)
-})
+const createAvatar = (seed?: string) => {
+  document.getElementById('avatar')!.innerHTML = avatar(seed || 'Your custom seed')
+}
+
+createAvatar()
+
+document.getElementById('seed')!.addEventListener('input', (event: any) => createAvatar(event.target.value))
