@@ -9,24 +9,6 @@ header, footer {
   background-color: #fff;
 }
 
-header ul,
-footer ul {
-  display: flex;
-  padding: 16px 32px;
-  line-height: 64px;
-  margin: 0;
-  list-style: none;
-}
-
-header ul li:not(:last-child),
-footer ul li:not(:last-child) {
-  margin-right: 32px;
-}
-
-header ul li:last-child {
-  margin-left: auto;
-}
-
 main {
   display: flex;
   align-items: center;
@@ -87,4 +69,48 @@ main > div {
 .input-wrapper input:focus + .focus-input,
 .input-wrapper input:active + .focus-input {
   transform: scaleX(1.05);
+}
+
+.links {
+  display: flex;
+  padding: 24px 32px;
+  margin: 0;
+  list-style: none;
+}
+
+.links a {
+  position: relative;
+  display: block;
+  height: 100%;
+  line-height: 48px;
+  font-size: 24px;
+  color: #797878;
+  text-decoration: none;
+}
+
+.links li:not(:last-child) {
+  margin-right: 32px;
+}
+
+header ul li:last-child {
+  margin-left: auto;
+}
+
+.links a::before {
+  content: attr(data-hover);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  line-height: 48px;
+  max-width: 0;
+  font-size: 24px;
+  white-space: nowrap;
+  border-bottom: 2px solid #6f8a6c;
+  color: #6f8a6c;
+  transition: max-width 0.5s;
+}
+
+.links a:hover::before {
+  max-width: 100%;
 }
