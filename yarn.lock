@@ -567,10 +567,10 @@ ajv@^6.12.4, ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-animal-avatar-generator@0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/animal-avatar-generator/-/animal-avatar-generator-0.0.8.tgz#9a75ed6a9321fafcdabbbf3d59cc2384852a0dfd"
-  integrity sha512-FawXZ+mOGscovFxx0hqFspfyPOtyzMXTa8KZBMLXSvI+FLzF2j/HSvNzmlVyVpfEPxD8WhOWu7jvRbAGqhd9TA==
+animal-avatar-generator@0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/animal-avatar-generator/-/animal-avatar-generator-0.0.9.tgz#724b40be2d36258f1af0667f6d72eaae1df0efcc"
+  integrity sha512-JfYrHUzpyKttaynNLZ35ILV7D/579P617/+q2PBILVgI/offl8300sYRuXC0y1zMApt6yjyWxjS+Sct/5HkYmQ==
 
 ansi-colors@^4.1.1:
   version "4.1.1"

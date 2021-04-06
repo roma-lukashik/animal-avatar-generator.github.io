@@ -5,14 +5,15 @@
   "description": "The animal avatar generator demo",
   "main": "src/index.ts",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "./node_modules/.bin/webpack serve --mode development",
+    "build": "./node_modules/.bin/webpack --mode production",
     "test": "jest",
     "test:watch": "jest --watch-all --coverage"
   },
   "author": "Roman Lukashik",
   "license": "MIT",
   "dependencies": {
-    "animal-avatar-generator": "0.0.8"
+    "animal-avatar-generator": "0.0.9"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
