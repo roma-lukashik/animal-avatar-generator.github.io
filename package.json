@@ -13,7 +13,7 @@
   "author": "Roman Lukashik",
   "license": "MIT",
   "dependencies": {
-    "animal-avatar-generator": "0.0.11"
+    "animal-avatar-generator": "0.0.12"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
