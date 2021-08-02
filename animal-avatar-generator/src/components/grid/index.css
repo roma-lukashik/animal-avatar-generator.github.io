@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  column-gap: 45px;
+  row-gap: 45px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  margin: 100px 250px;
+}
+
+@media (max-width: 1200px) {
+  .grid {
+    margin: 60px 20px;
+  }
+}
