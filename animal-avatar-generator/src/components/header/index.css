@@ -5,7 +5,7 @@
 }
 
 .top {
-  flex-basis: 40%;
+  flex-basis: 35%;
   position: relative;
   background-color: #b463d7;
 }
@@ -44,7 +44,7 @@
   right: 0;
   bottom: 0;
   margin: 0 auto;
-  max-width: 65%;
+  max-width: 55%;
   transform: translateY(60%);
 }
 
@@ -53,7 +53,7 @@
   max-width: calc(100% - 60px);
   box-sizing: border-box;
   padding: 15px 25px;
-  margin: 120px 30px 0;
+  margin: 100px 30px 0;
   line-height: 1.2;
   border: none;
   border-radius: 40px;
