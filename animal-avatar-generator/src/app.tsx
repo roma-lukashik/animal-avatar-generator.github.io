@@ -35,7 +35,7 @@ export const App = () => (
   <>
     <Header/>
     <Grid>
-      {names.map((name) => <GridCell title={name}/>)}
+      {names.map((name) => <GridCell key={name} title={name}/>)}
     </Grid>
     <Footer/>
   </>
