@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { Avatar } from '../avatar'
-import './index.css'
+import './index.scss'
 
 type Props = {
   title: string;

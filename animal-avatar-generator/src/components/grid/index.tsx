@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import './index.css'
+import './index.scss'
 
 export const Grid: FC = ({ children }) => (
   <div className="grid">

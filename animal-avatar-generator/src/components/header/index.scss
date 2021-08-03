@@ -23,10 +23,8 @@
   line-height: 1.5;
   text-align: center;
   color: #15212a;
-}
 
-@media (max-width: 1200px) {
-  .description {
+  @media (max-width: 1200px) {
     margin: 40px
   }
 }

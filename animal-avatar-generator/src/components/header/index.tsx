@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Avatar } from '../avatar'
-import './index.css'
+import './index.scss'
 
 export const Header = () => {
   const [text, setText] = useState('')

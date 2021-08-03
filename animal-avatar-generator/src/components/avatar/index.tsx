@@ -1,6 +1,6 @@
 import { FC, useEffect, useRef } from 'react'
 import avatar from 'animal-avatar-generator'
-import './index.css'
+import './index.scss'
 
 type Props = {
   name: string;
