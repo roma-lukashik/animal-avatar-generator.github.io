@@ -1,16 +1,16 @@
 import { useState } from 'react'
+import { Header } from './header'
 import { Avatar } from '../avatar'
 import './index.scss'
 
-export const Header = () => {
+export const Promo = () => {
   const [text, setText] = useState('')
 
   return (
-    <div className="header">
-      <div className="top">
-        <h1 className="title">
-          Animal Avatar Generator
-        </h1>
+    <div className="promo">
+      <Header />
+
+      <div className="avatar-container">
         <div className="avatar">
           <Avatar name={text} size={350}/>
         </div>

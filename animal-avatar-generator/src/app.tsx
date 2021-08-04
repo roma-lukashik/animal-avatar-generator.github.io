@@ -1,13 +1,13 @@
 import React from 'react'
 import { Grid } from './components/grid'
 import { GridCell } from './components/grid-cell'
-import { Header } from './components/header'
+import { Promo } from './components/promo'
 import { Footer } from './components/footer'
 
 const names = [
   'Temeka Lynam',
   'Kim Moodie',
-  'Nathaniel Ellsworth',
+  'Faith Hardy',
   'Jacob Texeira',
   'Natashia Harrold',
   'Sol Langston',
@@ -15,25 +15,27 @@ const names = [
   'Zandra Spano',
   'Maritza Linden',
   'Katharina Franks',
-  'Luanne Parmenter',
+  'Willis Higgins',
   'Douglas Bodine',
   'Nobuko Frary',
   'Pansy Emmert',
   'Kanesha Brazee',
   'Shera Reece',
   'Onita Esperanza',
-  'Ramonita Rearick',
+  'Nicole Kelley',
   'Kaye Lanclos',
   'Velda Bronstein',
   'Faye Webster',
   'Deanna Mathis',
   'Ruth Ferguson',
   'Grace Dean',
+  'Betty Quinn',
+  'Ebony Guerrero',
 ]
 
 export const App = () => (
   <>
-    <Header/>
+    <Promo/>
     <Grid>
       {names.map((name) => <GridCell key={name} title={name}/>)}
     </Grid>
