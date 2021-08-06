@@ -2,14 +2,5 @@
   display: grid;
   column-gap: 45px;
   row-gap: 45px;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  margin: 100px 250px;
-
-  @media (max-width: 1200px) {
-    margin: 60px 80px;
-  }
-
-  @media (max-width: 600px) {
-    margin: 60px 30px;
-  }
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }

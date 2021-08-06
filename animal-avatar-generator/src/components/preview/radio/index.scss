@@ -1,0 +1,25 @@
+.radio {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 8px;
+  padding: 8px;
+  border-radius: 16px;
+  background-color: #f6f6f6;
+
+  &-button {
+    width: 32px;
+    height: 32px;
+    box-sizing: content-box;
+    padding: 12px;
+    border: none;
+    border-radius: 16px;
+    color: #b463d7;
+    background-color: #fff;
+    cursor: pointer;
+
+    &.checked {
+      color: #fff;
+      background-color: #b463d7;
+    }
+  }
+}
