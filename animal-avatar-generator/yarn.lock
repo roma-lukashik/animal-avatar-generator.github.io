@@ -2251,10 +2251,10 @@ amdefine@>=0.0.4:
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
-animal-avatar-generator@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/animal-avatar-generator/-/animal-avatar-generator-1.0.2.tgz#ca01b770f1685da8d53662d7a79182e76c3f30bd"
-  integrity sha512-8/pDYcD8a4AgWYYRFFIfpX54EoYIz4PH1DLVNdKoOByElc1l48rvvD5m7ehFs3QMO1OEZLfucXxl8NAp6IU6nQ==
+animal-avatar-generator@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/animal-avatar-generator/-/animal-avatar-generator-1.0.5.tgz#2bb82e2de1c5e2093d7adc1d0cc51be912f75b5f"
+  integrity sha512-E0s7fIbdNSOmaE0cge4XI+Hng3IMCa+gTybGd0n5BdXUJ4/aX5eXPQ+Nnsct+wTovVoQsQ10VjBAa29c/wr6Bg==
 
 ansi-colors@^3.0.0:
   version "3.2.4"
